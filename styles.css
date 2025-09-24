@@ -1,0 +1,98 @@
+body {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0;
+}
+#hero {
+    background: url("media/background-img.webp");
+    background-size: cover;
+    color: white;
+    padding: 150px 0 340px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hero-title {
+    background: #080e82;
+    font-weight: normal;
+    margin-bottom: 1px;
+    padding: 5px 3px;
+    border-radius: 10px;
+}
+#hero-caption {
+    background: #2f76e1;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 5px 6px;
+    border-radius: 5px;
+}
+#reasons {
+    background: rgba(243, 243, 107, 0.677);
+}
+#reasons-title {
+    font-size: 40px;
+    font-weight: medium;
+    margin: 0;
+    padding-top: 15px;
+}
+#reasons-activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.activity-img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+}
+.activity-title {
+    font-weight: medium;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+.activity-caption {
+    font-weight: normal;
+    margin-top: 8px;
+}
+#card {
+    background: #6e7cc9;
+    display: flex;
+    width: 600px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+#card-img {
+    width: 250px;
+}
+#card-title {
+    font-family: Roboto Slab;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+#card-name {
+    font-family: Rosario;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+#card-caption {
+    font-family: Roboto Slab;
+    margin: 8px 3px;
+}
+#card-contact {
+    background: #ffa01b;
+    font-size: 28px;
+    margin-top: 20px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#card-contact:hover {
+    background: #f08c00;
+}
