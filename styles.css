@@ -61,14 +61,25 @@ body {
 #card {
     background: #6e7cc9;
     display: flex;
-    flex-wrap: wrap;
-    width: 600px;
+    max-width: 600px;
     margin: 15px auto;
     padding: 20px;
     border-radius: 5px;
 }
 #card-img {
-    width: 250px;
+    width: 100%;
+    min-width: 250px;
+}
+@media (max-width: 650px) {
+    #card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #card-img {
+        max-width: 95%;
+    }
 }
 #card-title {
     font-family: Roboto Slab;
@@ -84,7 +95,7 @@ body {
 }
 #card-caption {
     font-family: Roboto Slab;
-    margin: 8px 3px;
+    margin: 8px 6px;
 }
 #card-contact {
     background: #ffa01b;
