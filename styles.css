@@ -61,6 +61,7 @@ body {
 #card {
     background: #6e7cc9;
     display: flex;
+    flex-wrap: wrap;
     width: 600px;
     margin: 15px auto;
     padding: 20px;
