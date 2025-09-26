@@ -6,6 +6,7 @@ body {
 #hero {
     background: url("media/background-img.webp");
     background-size: cover;
+    background-position: center;
     color: white;
     padding: 150px 0 340px 0;
     display: flex;
@@ -39,6 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 40px;
 }
 .activity-img {
